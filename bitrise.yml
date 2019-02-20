@@ -57,7 +57,7 @@ workflows:
       - MY_STEPLIB_REPO_FORK_GIT_URL: https://github.com/tomcurran/bitrise-steplib.git
       - STEP_ID_IN_STEPLIB: android-manifest-info
       - STEP_GIT_VERION_TAG_TO_SHARE: 1.0.2
-      - STEP_GIT_CLONE_URL: https://github.com/tomcurran/bitrise-step-android-manifest-info.git
+      - STEP_GIT_CLONE_URL: https://github.com/mytheresa/bitrise-step-android-build-gradle-info
     description: |-
       If this is the first time you try to share a Step you should
       first call: $ bitrise share
