@@ -4,7 +4,7 @@ default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 app:
   envs:
   # define these in your .bitrise.secrets.yml
-  - BITRISE_ANDROID_MANIFEST_PATH: $BITRISE_ANDROID_MANIFEST_PATH
+  - BITRISE_ANDROID_BUILD_GRADLE_PATH: $BITRISE_ANDROID_BUILD_GRADLE_PATH
 
 workflows:
   test:
@@ -28,7 +28,7 @@ workflows:
           but the step would use the default value specified in the `step.yml`
           file if you would not specify another value.
         inputs:
-        - manifest_file: $BITRISE_ANDROID_MANIFEST_PATH
+        - build_gradle_file: $BITRISE_ANDROID_BUILD_GRADLE_PATH
     - script:
         title: Output variables tests
         inputs:
