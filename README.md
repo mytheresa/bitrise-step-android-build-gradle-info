@@ -38,5 +38,6 @@ For more information check the [Special step sources](https://devcenter.bitrise.
 Please check the [Creating and sharing your own step](https://devcenter.bitrise.io/bitrise-cli/create-your-own-step/) on official Bitrise documentation to understand how this was develop and how to eventually extend it
 
 ## Author
-Vittorio Morganti <vittorio.morganti@mytheresa.com>
+Vittorio Morganti (@toioski)
+<vittorio.morganti@mytheresa.com>
   
